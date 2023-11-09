@@ -23,7 +23,7 @@ $(document).ready(function () {
                 ],
               },
             ],
-            max_tokens: 50,
+            max_tokens: 250,
           };
         let requestData = JSON.stringify(jsonData);
     $.ajax({
