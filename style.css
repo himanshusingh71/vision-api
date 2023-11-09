@@ -1,0 +1,39 @@
+.topbar , .uploadfile , .question  {
+    margin-top: 3%;
+}
+#fileName{
+    margin-top: 1%;
+}
+
+#run{
+    display: none;
+}
+
+.btn-xl {
+    font-size: 180%;
+    height: 10%;
+    width:20%;  
+    border-radius: 20px;  
+}
+
+.answer{
+    border: black 3px solid;
+    margin-top: 3%;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: white;
+}
+
+textarea {
+    width: 33%;
+    border: 1px solid #888; 
+    border-radius: 10px;
+    padding: 2%;
+  }
+
+
+  .custom-file-input {
+    display: none;
+}

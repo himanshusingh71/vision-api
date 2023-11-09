@@ -1,0 +1,48 @@
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" class="stylesheet" />
+  </head>
+  <body style="background-color: #f2c7c4">
+    <input type="file" id="fileInput" class="custom-file-input" />
+    <input type="hidden" id="base64stuff" />
+    <div class="text-center topbar"><h1>Upload Image , Ask questions!</h1></div>
+    <div class="uploadfile text-center">
+      <button
+        id="customButton"
+        type="button"
+        class="btn btn-danger btn-xl btn-rounded"
+        onclick="inputFile()"
+      >
+        Upload file
+      </button>
+      <p id="fileName"></p>
+      <button id="run" type="button" class="btn btn-success btn-lg btn-rounded">
+        submit
+      </button>
+    </div>
+    <div class="question text-center">
+      <textarea
+        id="userQuestions"
+        rows="2"
+        placeholder="&nbsp; &nbsp;Ask questions ..."
+      ></textarea>
+    </div>
+    <div class="answer text-center textArea">
+      <p id="answers" class="font-weight-bold">Ask anything about the image.</p>
+    </div>
+  </body>
+</html>
